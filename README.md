@@ -1,5 +1,13 @@
 # SimpleBilly Java SDK
 
+[![Release](https://img.shields.io/github/v/release/simplebilly/simplebilly-java?label=release&logo=github)](https://github.com/simplebilly/simplebilly-java/releases)
+[![CI](https://github.com/simplebilly/simplebilly-java/actions/workflows/release.yml/badge.svg)](https://github.com/simplebilly/simplebilly-java/actions/workflows/release.yml)
+[![CodeQL](https://github.com/simplebilly/simplebilly-java/actions/workflows/codeql.yml/badge.svg)](https://github.com/simplebilly/simplebilly-java/actions/workflows/codeql.yml)
+[![Scorecard](https://github.com/simplebilly/simplebilly-java/actions/workflows/scorecard.yml/badge.svg)](https://github.com/simplebilly/simplebilly-java/actions/workflows/scorecard.yml)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/simplebilly/simplebilly-java/badge)](https://scorecard.dev/viewer/?uri=github.com/simplebilly/simplebilly-java)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-simplebilly.com-blue)](https://simplebilly.com/api/docs)
+
 Official Java client for the [SimpleBilly API](https://simplebilly.com/api/docs).
 
 > This repository contains generated code — do not edit manually. It is rebuilt
@@ -10,14 +18,30 @@ Official Java client for the [SimpleBilly API](https://simplebilly.com/api/docs)
 
 ## Installation
 
-The package is published to the Java package registry. See the
-[Releases](https://github.com/simplebilly/simplebilly-java/releases) page for the list
-of versions.
+The package is published to the Java package registry (and to [GitHub Packages](https://github.com/orgs/simplebilly/packages) for public repos — free for public packages).
+See the [Releases](https://github.com/simplebilly/simplebilly-java/releases) page for the list
+of versions and registry coordinates.
+
+```bash
+# example (registry coordinates are generator-specific, see release notes)
+# TypeScript: npm install @simplebilly/api
+# Python:     pip install simplebilly-api
+# Go:         go get github.com/simplebilly/simplebilly-go
+```
 
 ## Usage
 
 See the API documentation at https://simplebilly.com/api/docs for endpoints,
 authentication and examples.
+
+```Java
+# see generated README.generated.md for language-specific snippets
+```
+
+## Security
+
+See [SECURITY.md](SECURITY.md) for reporting vulnerabilities. SAST via CodeQL and
+OpenSSF Scorecard runs on every push (free tier, no GitHub Advanced Security required).
 
 ## Links
 
